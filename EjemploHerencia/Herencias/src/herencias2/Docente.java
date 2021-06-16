@@ -10,6 +10,7 @@ public class Docente extends Persona{
     
     public Docente(String n, String a, int e, double suel){
         super(n, a, e);
+        this.sueldo = suel;
     }
     
     public void setSueldo(double suel){
